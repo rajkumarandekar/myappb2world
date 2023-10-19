@@ -1,0 +1,135 @@
+/* index.css or create a separate CSS file for this component */
+
+/* Styling for the HowWeWork component */
+.how-we-work {
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+    position: relative;
+
+  }
+
+  .how {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .step-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Increased box shadow */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+
+  }
+
+  .step-card:hover::before {
+    opacity: 1; /* Show the spark on hover */
+  }
+
+  .icon-how {
+    width: 100px;
+    height: 100px;
+  }
+
+  .arrow {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Center the arrow */
+  .arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-pa1 {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+     height: 135px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .how-we-work {
+      text-align: center;
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .steps-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 70px;
+      position: relative;
+      margin-top: 240px;
+
+    }
+
+    .how {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .step-card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Increased box shadow */
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+      position: relative;
+      align-items: center;
+      margin-left: 20px;
+
+    }
+
+    .step-card:hover::before {
+      opacity: 1; /* Show the spark on hover */
+    }
+
+    .icon-how {
+      width: 100px;
+      height: 100px;
+    }
+
+    .arrow {
+      width: 120px;
+      height: 120px;
+    }
+
+    /* Center the arrow */
+    .arrow-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .service-pa1 {
+      font-size: 30px;
+      margin-left: 60px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+       height: 135px;
+    }
+  }

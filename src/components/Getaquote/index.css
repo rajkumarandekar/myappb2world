@@ -1,0 +1,35 @@
+
+.form-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  color: #000;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon svg {
+  color: #000;
+}
+
+input[type="email"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  padding: 1rem 0.5rem;
+}
+
+.fill-up{
+  font-size: 24px;
+}
+.hr-1{
+  width: 300px;
+}

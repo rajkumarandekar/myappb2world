@@ -1,0 +1,151 @@
+/* ServiceCard.css */
+.service-card {
+    width: 400px;
+    max-height: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+      background-color 0.2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+
+
+  }
+
+
+  .service-card::before {
+    display: block;
+    content: "";
+    height: 100%;
+    width: 130%;
+    position: absolute;
+    background-image: url("https://res.cloudinary.com/dofzu13gt/image/upload/v1696865197/shadow.62db8eaddfbbf567a592_kjselc.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: -20%;
+    right: 0;
+    transition: all 0.4s ease-out;
+    transform-origin: 30% 50%;
+    pointer-events: none;
+    z-index: 1;
+    transform: translateX(0) rotateZ(0) scale(0.87);
+  }
+
+  .service-card:hover::before {
+    top: 100%;
+    display: none;
+
+    transform: translateX(0) rotateZ(0) scale(0.87);
+  }
+
+
+
+  .service-card .card-content {
+    padding: 20px;
+  }
+
+  .service-card .cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.2s ease-in-out;
+  }
+  .service-card button {
+    background-color: #000;
+  }
+
+  .service-card:first-child {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+    color: #fff;
+
+  }
+  .service-card:nth-child(1):hover {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+  }
+
+
+  .service-card:nth-child(2) {
+    transform: rotate(15deg);
+  }
+
+  .service-card:nth-child(2):hover {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+  }
+
+  .service-card:nth-child(3) {
+    transform: rotate(-15deg);
+  }
+
+
+  .service-card:nth-child(3):hover {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+  }
+
+
+  .service-card:nth-child(4) {
+    transform: rotate(15deg);
+  }
+
+
+  .service-card:nth-child(4):hover {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+  }
+
+
+  .service-card:nth-child(5) {
+    transform: rotate(0deg);
+  }
+
+
+  .service-card:nth-child(5):hover {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+
+
+  }
+
+  .service-card:nth-child(6) {
+    transform: rotate(0deg);
+    background-color: #f8198d;
+    color: #fff;
+  }
+
+
+
+
+
+
+  .service-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .service-card:not(:first-child):hover {
+    transform: rotate(0deg);
+  }
+
+  .service-card:hover .cross {
+    opacity: 1;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

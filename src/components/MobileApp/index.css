@@ -1,0 +1,316 @@
+.main-web-dynamic1{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.dwaed{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+
+}
+
+
+
+.main-web-dynamic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65vh;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.head-webapp-3{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  color: #000;
+  font-size: 30px;
+
+}
+.dynamic-text {
+    position: absolute;
+    top: 45%; /* Position the text at the vertical center */
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); /* Adjust for centering */
+  }
+
+.h-web-dynamic {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 90px;
+    z-index: 1;
+    font-weight: 800;
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+
+.desc1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100vh;
+    width: 100%;
+    margin-left: 90px;
+    padding-right: 40px;
+
+
+}
+.web-a1{
+    width: 590px;
+    height: 80px;
+    color: #344D6C;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.web-p{
+    width: 595px;
+    height: 480px;
+    color: #7E8090;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+.img-w {
+    width: 327px;
+    height: 350px;
+    margin-right: auto;
+
+
+}
+.img20 {
+    width: 357px;
+    height: 350px;
+    margin-left: 190px;
+    margin-top:-120px;
+}
+
+
+
+.why1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+ padding-left: 50px;
+    height: 80vh;
+    width: 95%;
+
+
+
+}
+.why-h2{
+    width: 590px;
+    height: 80px;
+    color: #344D6C;
+    font-size: 34px;
+    font-weight: 600;
+    margin-left: 50px;
+margin-bottom: 30px;
+}
+
+.why-p1{
+    width: 595px;
+    height: 280px;
+    color: #7E8090;
+    font-size: 18px;
+
+}
+
+
+.img-w{
+    width: 357px;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+.here1{
+    width: 590px;
+   margin-bottom: 190px;
+    color: #344D6C;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+.fea-why1{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.fea-all1 {
+
+    justify-content: space-between;
+  margin-right: 360px;
+  margin-top: -160px;
+  width: 350px;
+}
+
+
+.con-fea11{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+
+.con-fea1{
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+.con-fea-h1{
+    font-size: 20px;
+
+}
+
+.dont-con1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.dont{
+  margin-top: 40px;
+  font-size: 24px;
+  width: 900px;
+  color: #f8198d;
+  text-align: center;
+  margin-left: -170px;
+
+}
+.why-img-des1{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-left: 40px;
+
+}
+
+.img32{
+  margin-left: -20px;
+  width: 250px;
+}
+
+.contact-h1 {
+    background-color: #f8198d;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 300px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+
+.slider-container{
+    margin-top: 100vh;
+}
+
+.last-web{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dofzu13gt/image/upload/v1696338757/diverse-hands-touching-white-paper_1_isfhfr.jpg");
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(1px);
+  position: relative;
+
+}
+
+
+
+.connect {
+    margin-top: 110px;
+    color: green;
+    font-size: 65px;
+    font-weight: 700;
+     padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 15px white;
+
+}
+
+
+.img-22 {
+    position: relative;
+    animation: moveUpDown 2s infinite alternate;
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+
+
+
+  .img-w {
+    position: relative;
+    animation: moveUpDown 2s infinite alternate;
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+
+
+
+  .img-20 {
+    position: relative;
+    animation: moveUpDown 2s infinite alternate;
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+
+  .foot-web{
+    margin-top: 1960px;
+  }

@@ -1,0 +1,244 @@
+
+
+.main-career{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+     height: 100vh;
+
+}
+
+.main-below-career{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-size: cover;
+    justify-content: space-around;
+    align-items:flex-end;
+    height: 100%;
+ }
+ .start-j{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .img-car{
+    width: 800px;
+    height: 400px;
+ }
+
+.career-h1{
+    font-size: 60px;
+    font-weight: 600;
+    align-items: flex-end;
+    text-align: end;
+
+}
+.career-p{
+    font-size: 25px;
+     font-weight: 300;
+    align-items: flex-end;
+    text-align: start;
+    margin: 20px;
+    width: 400px;
+    color: #f8198d;
+    margin-bottom: 50px;
+}
+
+.p1-career{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.job-list-con{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.job-list{
+    width: 800px;
+    height: 350px;
+
+}
+.job-listing{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.job-title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.job-description{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.img-drop{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.career-form{
+     width: 100%;
+}
+.send-re{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form-group input{
+    padding: 7px 10px;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form-group textarea{
+    height: 100px;
+    padding: 7px 10px;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form-group1 input {
+    padding: 7px 10px;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px
+}
+
+.btn-submit-career{
+         background: transparent;
+
+
+        color: #5e707d;
+
+        display: inline-block;
+        height: 44px;
+        line-height: 40px;
+        padding: 0 20px;
+        border-radius: 25px;
+        color: #f8198d;
+        font-size: 15px;
+        border: 2px solid #f8198d;
+        text-align: center;
+        font-family: Montserrat,sans-serif;
+        font-weight: 400;
+
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.need-more1{
+    width: 450px;
+    height: 240px;
+    align-items: flex-start;
+    border-width: 2px;
+    border-style: solid;
+ margin-top: 30px;
+ padding: 25px;
+ margin-left: 80px;
+ border-radius: 5px;
+ text-align: center;
+ }
+ .need-h1 {
+    color: #f8198d;
+    font-weight: 600;
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 10px;
+ }
+
+.need-p{
+    color: #181A1E;
+    width: 402px;
+    font-size: 20px;
+}
+.btn-sales {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #f8198d;
+    width: 143px;
+    height: 42px;
+}
+.need-more-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+.need-h2{
+    color: #f8198d;
+    font-weight: 600;
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+.need-p2{
+    color: #181A1E;
+    width: 402px;
+    font-size: 20px;
+}
+
+.btn-sales1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #f8198d;
+    width: 143px;
+    height: 42px;
+}
+
+.footer-career{
+    margin-top: 800px;
+}

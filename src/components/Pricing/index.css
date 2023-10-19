@@ -1,0 +1,407 @@
+.main-pricing {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-pricing{
+    font-size: 50px;
+    font-weight: 600;
+}
+.span-pricing{
+    font-size: 50px;
+    font-weight: 600;
+    color: #f8198d;
+
+}
+
+.p-pricing{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.save-p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+
+
+
+ .save-p{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #181a1e;
+    width: 450px;
+    height: 54px;
+    padding-left: 4px;
+}
+
+.btn-save20 {
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+    height: 44px;
+    margin-top: 2px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+
+
+}
+
+.btn-save20.active{
+
+        background-color: white; /* Background color when active */
+        color: black;
+
+}
+.btn-monthly {
+
+  width: 400px;
+  margin-top: 2px;
+  font-size: 18px;
+  height: 44px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: white; /* Default background color */
+
+
+}
+
+.btn-monthly.active
+ {
+    background-color: white; /* Background color when active */
+    color: black;
+  }
+
+
+
+
+.dd {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+.pricing-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+
+
+}
+
+
+  .btn-save20.active {
+    background-color: black;
+    color: white;
+  }
+
+  .btn-monthly.active {
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.basic-con {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    box-sizing: border-box;
+    gap: 10px;
+
+ }
+
+
+
+
+
+
+
+.pricing-name{
+    font-size: 18px;
+    font-weight: 600px;
+
+}
+
+.pricing-name-s{
+    color: #f8198d;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.mp {
+    background-color: #f8198d;
+    color: white;
+    width: 110px;
+    font-size: 14px;
+    height: 19px;
+    border-radius: 12px;
+    padding: auto;
+    text-align: end;
+    align-items: flex-end;
+    margin-left:175px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.pricing-d {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.mo {
+    font-size: 19px;
+  font-weight: 400;
+}
+.bill{
+    font-size: 19PX;
+    font-weight: 500;
+     color: #64728d;
+}
+
+.pricing-cut{
+    color: #64728d;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.pricing-p{
+    color: #64728d;
+}
+.btn-Start-free{
+    height: 42px;
+    width: 244px;
+    color: #181A1E;
+    border-radius: 5px;
+    background-color: white;
+    border-width: 2px;
+}
+.pricing-features{
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.features-con{
+
+    display: flex;
+    flex-direction: column;
+}
+.items-list{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.green-tick{
+    padding-right: 10px;
+  padding-bottom: 7px;
+}
+.p-h1{
+   font-weight: 500;
+}
+
+
+.applicable{
+    font-size: .875rem;
+    color: #181A1E;
+    font-style: italic;
+}
+
+
+.btn-Start-free1 {
+        height: 42px;
+        width: 244px;
+        color: #181A1E;
+        border-radius: 5px;
+        background-color: #f8198d;
+        border-width: 2px;
+        color: white;
+        border-style: none;
+}
+
+.btn-Start-free1:hover{
+   background-color: blue;
+}
+
+
+.pricing-name,
+.pricing-d,
+.pricing-cut,
+.pricing-p,
+.btn-Start-free {
+  transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.features-con {
+    display: flex;
+    flex-direction: column;
+    transition: color 0.3s ease; /* Add transition for text color */
+  }
+
+  /* Add transition for green tick image */
+  .green-tick {
+    transition: transform 0.3s ease; /* Add transition for image transform */
+    width: 35px;
+    height: 46px;
+    margin-left: -10px;
+    margin-top: -7px;
+  }
+
+
+
+ /* Apply styles to the second card */
+.pricing-con:nth-child(2) {
+     height: 100%; /* Adjust the height as needed */
+    margin-top: 0;
+    position: relative; /* Add relative positioning */
+}
+
+
+.wrong-tick {
+    padding-right: 10px;
+    padding-bottom: 9px;
+    margin-left: -14px;
+   margin-top: -7px;
+    width: 42px;
+    height: 48px;
+
+  }
+
+
+  .green-background {
+    background-color: #4caf50; /* Green background color */
+    color: #fff; /* White text color */
+  }
+
+  .most-popular {
+    background-color: #4caf50;
+  }
+
+  .green-name {
+    color: #4caf50; /* Green color */
+  }
+
+  /* Yearly Pricing Cut Style */
+.pricing-cut.annual {
+    color: red; /* Red text color for yearly pricing */
+    font-size: 18px; /* Increase font size for yearly pricing */
+  }
+
+  /* Monthly Pricing Cut Style */
+  .pricing-cut.monthly {
+    color: red; /* Blue text color for monthly pricing */
+    font-size: 16px; /* Increase font size for monthly pricing */
+  }
+
+ .need-more{
+    width: 450px;
+    height: 240px;
+    align-items: flex-start;
+    border-width: 2px;
+    border-style: solid;
+ margin-top: 30px;
+ padding: 25px;
+
+ border-radius: 5px;
+ text-align: center;
+ }
+ .need-h1 {
+    color: #f8198d;
+    font-weight: 600;
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 10px;
+ }
+
+.need-p{
+    color: #181A1E;
+    width: 402px;
+    font-size: 20px;
+}
+.btn-sales {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #f8198d;
+    width: 143px;
+    height: 42px;
+}
+.need-more-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+.need-h2{
+    color: #000;
+    font-weight: 600;
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+.need-p2{
+    color: #181A1E;
+    width: 402px;
+    font-size: 20px;
+}
+
+.btn-sales1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #000;
+    width: 143px;
+    height: 42px;
+}
+
+.foot-pricing{
+  margin-top: 750px;
+}

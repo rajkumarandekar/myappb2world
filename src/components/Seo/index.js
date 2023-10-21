@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./index.css";
 import Header from "../Header";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
 class DynamicTextComponent extends Component {
   constructor(props) {
@@ -207,7 +208,9 @@ function Seo() {
           </div>
           <div className="need-more-con">
             <div className="need-more">
-              <h1 className="need-h1">Need More?</h1>
+              <Link to="/contactus">
+                <h1 className="need-h1">Need More?</h1>
+              </Link>
               <p className="need-p">
                 Looking for limits scale with your audience ? Our Development
                 team is here to help
@@ -221,7 +224,9 @@ function Seo() {
                 Need help choosing the right plan for your business? Chat with
                 support today!
               </p>
-              <button className="btn-sales1">Contact Us</button>
+              <Link to="/contactus">
+                <button className="btn-sales1">Contact Us</button>
+              </Link>
             </div>
           </div>
         </div>

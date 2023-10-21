@@ -700,60 +700,61 @@ function Header() {
   return (
     <>
       {isMenuOpen ? null : <TopSection />}
-      <div className="navbar-content">
-        <nav className={`navbar ${isHeaderFixed ? "fixed" : ""}`}>
-          <Link to="/" className="navbar-logo">
-            <img
-              src="https://res.cloudinary.com/dofzu13gt/image/upload/v1695396386/Company_20Logo.png_lv3klc.png"
-              alt="img"
-              className="img1"
-            />
-          </Link>
+      <header className="header">
+        <div className="navbar-content">
+          <nav className={`navbar ${isHeaderFixed ? "fixed" : ""}`}>
+            <Link to="/" className="navbar-logo">
+              <img
+                src="https://res.cloudinary.com/dofzu13gt/image/upload/v1695396386/Company_20Logo.png_lv3klc.png"
+                alt="img"
+                className="img1"
+              />
+            </Link>
 
-          <ul className={`nav-items ${isMenuOpen ? "open" : ""}`}>
-            {navItems.map((item) => {
-              if (item.title === "Services") {
+            <ul className={`nav-items ${isMenuOpen ? "open" : ""}`}>
+              {navItems.map((item) => {
+                if (item.title === "Services") {
+                  return (
+                    <li
+                      key={item.id}
+                      className={item.cName}
+                      onMouseEnter={() => setServiceDropdownVisible(true)}
+                      onMouseLeave={() => setServiceDropdownVisible(false)}
+                    >
+                      <Link to={item.path}>{item.title}</Link>
+                      {serviceDropdownVisible && (
+                        <Dropdown items={serviceDropdown} />
+                      )}
+                    </li>
+                  );
+                } else if (item.title === "Contact Us") {
+                  return (
+                    <li
+                      key={item.id}
+                      className={item.cName}
+                      onMouseEnter={() => setContactDropdownVisible(true)}
+                      onMouseLeave={() => setContactDropdownVisible(false)}
+                    >
+                      <Link to={item.path}>{item.title}</Link>
+                      {contactDropdownVisible && (
+                        <Dropdown items={contactDropdown} />
+                      )}
+                    </li>
+                  );
+                }
                 return (
-                  <li
-                    key={item.id}
-                    className={item.cName}
-                    onMouseEnter={() => setServiceDropdownVisible(true)}
-                    onMouseLeave={() => setServiceDropdownVisible(false)}
-                  >
+                  <li key={item.id} className={item.cName}>
                     <Link to={item.path}>{item.title}</Link>
-                    {serviceDropdownVisible && (
-                      <Dropdown items={serviceDropdown} />
-                    )}
                   </li>
                 );
-              } else if (item.title === "Contact Us") {
-                return (
-                  <li
-                    key={item.id}
-                    className={item.cName}
-                    onMouseEnter={() => setContactDropdownVisible(true)}
-                    onMouseLeave={() => setContactDropdownVisible(false)}
-                  >
-                    <Link to={item.path}>{item.title}</Link>
-                    {contactDropdownVisible && (
-                      <Dropdown items={contactDropdown} />
-                    )}
-                  </li>
-                );
-              }
-              return (
-                <li key={item.id} className={item.cName}>
-                  <Link to={item.path}>{item.title}</Link>
-                </li>
-              );
-            })}
-          </ul>
-
-          <div className="menu-icon" onClick={toggleMenu}>
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
-          </div>
-        </nav>
-      </div>
+              })}
+            </ul>
+          </nav>
+        </div>
+        <div className="menu-icon" onClick={toggleMenu}>
+          {isMenuOpen ? <FaTimes /> : <FaBars />}
+        </div>
+      </header>
     </>
   );
 }

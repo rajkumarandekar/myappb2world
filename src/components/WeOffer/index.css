@@ -43,9 +43,8 @@
     margin-bottom: 20px;
 }
 
-
-/* For screens up to 767px (Mobile Devices) */
-@media screen and (max-width: 768px) {
+/*
+ @media screen and (max-width: 768px) {
     .we-offer-main{
         background-image: url("https://res.cloudinary.com/dofzu13gt/image/upload/v1695645860/cta-bg-img.39434724a310b9e24e6c_q9nrly.jpg");
         width: 100%;
@@ -149,8 +148,7 @@
 
 
 
-  /* Small laptops and desktops */
-@media screen and (min-width: 1024px) and (max-width: 1365px) {
+ @media screen and (min-width: 1024px) and (max-width: 1365px) {
     .we-offer-main{
         background-image: url("https://res.cloudinary.com/dofzu13gt/image/upload/v1695645860/cta-bg-img.39434724a310b9e24e6c_q9nrly.jpg");
         width: 100%;
@@ -198,8 +196,7 @@
     }
   }
 
-  /* Medium to large desktops */
-  @media screen and (min-width: 1366px) {
+   @media screen and (min-width: 1366px) {
     .we-offer-main{
         background-image: url("https://res.cloudinary.com/dofzu13gt/image/upload/v1695645860/cta-bg-img.39434724a310b9e24e6c_q9nrly.jpg");
         width: 100%;
@@ -246,3 +243,4 @@
         margin-bottom: 20px;
     }
   }
+  */

@@ -5,6 +5,7 @@ import Header from "../Header";
 import React, { useState } from "react";
 import Footer from "../Footer";
 import { Slide } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 const sliderImages = [
   {
     src: "https://res.cloudinary.com/dofzu13gt/image/upload/v1697480770/pexels-karolina-grabowska-4386339_f0pwsp.jpg",
@@ -387,15 +388,17 @@ function Pricing() {
               ? "Get your business up and running"
               : "Take your business to the next level with additional features"}
           </p>
-          <button
-            className={`btn-Start-free ${
-              plan.name === "Standard" && activePlan === "monthly"
-                ? "green-background"
-                : ""
-            } ${plan.name === "Standard" ? "btn-Start-free1" : ""}`}
-          >
-            Call Us
-          </button>
+          <Link to="/contactus">
+            <button
+              className={`btn-Start-free ${
+                plan.name === "Standard" && activePlan === "monthly"
+                  ? "green-background"
+                  : ""
+              } ${plan.name === "Standard" ? "btn-Start-free1" : ""}`}
+            >
+              Call Us
+            </button>
+          </Link>
           <p className="pricing-features">Features</p>
           <div className="features-con">
             {plan.features.map((feature, featureIndex) => (
@@ -487,12 +490,16 @@ function Pricing() {
             </div>
 
             <div className="need-more">
-              <h1 className="need-h2">Contact Support</h1>
+              <Link to="/contactus">
+                <h1 className="need-h2">Contact Support</h1>
+              </Link>
               <p className="need-p2">
                 Need help choosing the right plan for your business? Chat with
                 support today!
               </p>
-              <button className="btn-sales1">Contact Us</button>
+              <Link to="/contactus">
+                <button className="btn-sales1">Contact Us</button>
+              </Link>
             </div>
           </div>
         </Slide>

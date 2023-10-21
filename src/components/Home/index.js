@@ -12,7 +12,6 @@ import OurStatsSection from "../OurStatsSection";
 import Footer from "../Footer";
 
 import Faq from "../Faq";
-import Getaquote from "../Getaquote";
 import ClientIcons from "../ClientIcons";
 import Testimonials from "../Testimonials";
 
@@ -138,7 +137,7 @@ class Home extends React.Component {
                     </h1>
                     <p className="home-p">
                       At B2World, We Are Passionate About Technology And Its
-                      Potential To Transform Businesses. As A Dynamic And
+                      Potential To Transform Businesses.
                     </p>
                     <a href="/aboutPage" className="ppo" alt="j">
                       <button className="about-h1">Learn More</button>
@@ -249,7 +248,7 @@ class Home extends React.Component {
           <HowWeWork />
           <ClientIcons />
           <Faq />
-          <Getaquote />
+
           <Testimonials />
           <Footer />
         </div>
